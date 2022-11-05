@@ -43,4 +43,8 @@ router.post("/login",async(req,res)=>{
 
 })
 
+router.get('/get',(req,res)=>{
+    res.send("hello")
+})
+
 module.exports = router
